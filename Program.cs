@@ -20,7 +20,7 @@ internal sealed class BenchForm : Form
     {
         Multiline = true,
         ScrollBars = ScrollBars.Vertical,
-        Text = "192.168.0.98\r\n1.1.1.1\r\n8.8.8.8\r\n9.9.9.9",
+        Text = "1.1.1.1\r\n8.8.8.8\r\n9.9.9.9",
         Dock = DockStyle.Fill,
     };
     private readonly TextBox _domain = new() { Text = "example.com", Dock = DockStyle.Fill };
